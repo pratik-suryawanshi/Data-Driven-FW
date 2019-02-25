@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="3" parallel="false" name="Test">
+    <classes>
+
+    	 <class name="com.test.VerifyValidUser"> 
+    	 	<methods>
+    	 	<include name="checkValidUser"></include>
+    	 	<include name="createcourse"></include>
+    	 	<include name="Editcourse"></include>
+    	 	<include name="mcq"></include>
+    	 	<include name="publish"></include>
+    	 	<include name="sendinv"></include>
+    	 	</methods>
+    	 </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
