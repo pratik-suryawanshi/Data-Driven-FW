@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="keywordDrvien.KeyWordExample">
+        <methods>
+          <include name="iframe"/>
+          <include name="close_Browser"/>
+          <include name="enter_URL"/>
+          <include name="click_On_Button"/>
+          <include name="enter_Text"/>
+          <include name="enter_Text_in_list"/>
+          <include name="select"/>
+          <include name="open_Browser"/>
+          <include name="click_On_Link"/>
+        </methods>
+      </class> <!-- keywordDrvien.KeyWordExample -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
